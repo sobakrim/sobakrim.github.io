@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. IRMAR, Univ Rennes 1, France
+subtitle: <a href='#'>Affiliations</a>. Biostatistique et Processus SPatiaux (BioSP), INRAE, Avignon, France
 profile:
   align: right
   image: prof_pic.jpg
