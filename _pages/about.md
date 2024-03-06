@@ -15,10 +15,10 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Currently, I am a postdoctoral researcher at the BioSP Laboratory within INRAE, in France. My work focuses on developing advanced statistical methods to understand and predict environmental processes, contributing to the broader field of environmental statistics and climate science.
+
 
 ### Current Position
-I hold a postdoctoral position at the Biosp Laboratory, INRAE, Avignon, France. The primary aim of my postdoctoral work is to construct a multivariate space-time model. This model is designed to generate past, present, and future synthetic time series data for various weather variables such as precipitation, temperature, and humidity, over the south of France.
+Currently, I am a postdoctoral researcher at the BioSP Laboratory within INRAE, in France. My work focuses on developing advanced statistical methods to understand and predict environmental processes, contributing to the broader field of environmental statistics and climate science.
 
 ### Research Interests
 My main research area encompasses statistics, space-time statistics, and machine learning, with a particular emphasis on applications in climate science. I am passionate about leveraging statistical models to better understand the complexities of climate variables and their impacts on natural and human systems. My work aims to provide insightful analyses that can inform policy and decision-making processes related to climate change and environmental management.
