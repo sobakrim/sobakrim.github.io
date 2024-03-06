@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Biostatistique et Processus SPatiaux (BioSP), INRAE, Avignon, France
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 1709718445329.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
