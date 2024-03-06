@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://biosp.mathnum.inrae.fr/'>Affiliations</a>. Biostatistique et Processus SPatiaux (BioSP), INRAE, Avignon, France
+subtitle: <a href='https://biosp.mathnum.inrae.fr/'>Biostatistique et Processus SPatiaux (BioSP)</a> , INRAE, Avignon, France
 profile:
   align: right
   image: 1709718445329.jpg
