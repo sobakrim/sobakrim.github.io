@@ -8,7 +8,7 @@ profile:
   image: 1709718445329.jpg
   address: >
     <p>INRAE-BioSP</p>
-    <p>1Domaine St. Paul</p>
+    <p>1 Domaine St. Paul</p>
     <p>84914 Avignon </p>
 
 news: true  # includes a list of news items
