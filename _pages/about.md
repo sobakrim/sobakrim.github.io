@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-
+permalink: /
 profile:
   align: right
   image: 1709718445329.jpg
