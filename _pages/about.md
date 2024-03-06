@@ -6,6 +6,7 @@ profile:
   align: right
   image: 1709718445329.jpg
   address: >
+    <p>Said OBAKRIM</p>
     <p>INRAE-BioSP</p>
     <p>1 Domaine St. Paul</p>
     <p>84914 Avignon </p>
