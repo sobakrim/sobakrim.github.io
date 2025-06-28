@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Profile photo" style="width: 160px; border-radius: 50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" />
+  <img src="{{ '/assets/img/1709718445329.jpg' | relative_url }}" alt="Profile photo" style="width: 160px; border-radius: 50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" />
   <div style="flex: 1;">
     <h2 style="margin-bottom: 0.4em;">👋 Hi, I'm Said Obakrim</h2>
     <p style="margin-top: 0;">
