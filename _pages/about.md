@@ -1,26 +1,55 @@
 ---
-layout: about
-title: About
-permalink: /
-profile:
-  align: right
-  image: 1709718445329.jpg
-  address: >
-    <p>Said OBAKRIM</p>
-    <p>INRAE-BioSP</p>
-    <p>1 Domaine St. Paul</p>
-    <p>84914 Avignon </p>
-
-news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+layout: page
+title: "About Me"
+permalink: /about/
 ---
 
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+  <img src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Profile photo" style="width: 160px; border-radius: 50%; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" />
+  <div style="flex: 1;">
+    <h2 style="margin-bottom: 0.4em;">👋 Hi, I'm Said Obakrim</h2>
+    <p style="margin-top: 0;">
+      I'm a data scientist and statistician passionate about building models and tools that turn complex environmental and climate data into actionable insight. My work blends machine learning, statistical modeling, and domain knowledge to support real-world decision-making in public health, climate risk, and coastal dynamics.
+    </p>
+  </div>
+</div>
 
-### Current Position
-Currently, I am a postdoctoral researcher at the <a href='https://biosp.mathnum.inrae.fr/'>Biostatistique et Processus SPatiaux (BioSP)</a> Laboratory within INRAE, in France. My work focuses on developing advanced statistical methods to understand and predict environmental processes, contributing to the broader field of environmental statistics and climate science.
+---
 
-### Research Interests
-My main research area encompasses statistics, space-time statistics, and machine learning, with a particular emphasis on applications in climate science. I am passionate about leveraging statistical models to better understand the complexities of climate variables and their impacts on natural and human systems. My work aims to provide insightful analyses that can inform policy and decision-making processes related to climate change and environmental management.
+### 🌍 What I Do
 
+- 🔬 Build space–time statistical models for simulating temperature, precipitation, and climate extremes  
+- 🧠 Combine machine learning with geostatistics for environmental forecasting  
+- 🛠 Develop open-source tools such as <a href="https://sobakrim.github.io/MSTWeatherGen" target="_blank">MSTWeatherGen</a>  
+- 📊 Translate complex data into intuitive visualizations and interactive products  
+- 🎓 Contribute to scientific research, teaching, and mentoring in data science
 
+---
+
+### 🛠 Tools & Tech I Use
+
+**Languages**: Python, R, Bash  
+**Libraries**: NumPy, scikit-learn, TensorFlow, Keras, JAX  
+**Domains**: Spatio-temporal statistics, extreme value theory, climate modeling, geostatistics  
+**Deployment**: GitHub Pages, R packages, scientific reproducibility
+
+---
+
+### 🧭 Currently
+
+- Postdoctoral researcher at the University of Lausanne  
+- Working on probabilistic simulation of temperature scenarios in Switzerland  
+- Exploring AI-enhanced weather generation methods
+
+---
+
+### 📬 Let's connect!
+
+- ✉️ Email: saidobak@gmail.com  
+- 💼 GitHub: [sobakrim](https://github.com/sobakrim)  
+- 🌐 Website: [sobakrim.github.io](https://sobakrim.github.io)  
+- 📝 [View CV](/cv/)
+
+---
+
+_Thanks for visiting! Feel free to explore my [projects](/projects/) or check out my [publications](/publications/)._
