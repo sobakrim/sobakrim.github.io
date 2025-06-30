@@ -3,12 +3,12 @@ name: Deploy
 on:
   push:
     branches:
-      - master
       - main
+      - master
   pull_request:
     branches:
-      - master
       - main
+      - master
 
 jobs:
   deploy:
@@ -21,11 +21,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true  # enables built-in caching (you can remove the separate cache step)
+          bundler-cache: true
 
       - name: Install dependencies
         run: |
@@ -34,7 +34,12 @@ jobs:
           bundle install --jobs 4 --retry 3
           npm install -g mermaid.cli
 
-      - name: Setup deploy options
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Set deploy options
         id: setup
         run: |
           git config --global user.name "GitHub Action"
@@ -51,7 +56,7 @@ jobs:
 
       - name: Deploy website
         run: |
-          yes | bash bin/deploy --verbose \
+          echo "y" | bash bin/deploy --verbose \
             ${{ steps.setup.outputs.NO_PUSH }} \
             --src ${{ steps.setup.outputs.SRC_BRANCH }} \
             --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
